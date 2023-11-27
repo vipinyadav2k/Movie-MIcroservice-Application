@@ -63,7 +63,7 @@ public class MovieController {
         }
     }
 
-    @DeleteMapping("/{movieId}")
+    @DeleteMapping("/delete/{movieId}")
     public ResponseEntity<Void> deleteMovie(@PathVariable Long movieId) {
         boolean deleted = movieService.deleteMovie(movieId);
         if (deleted) {
@@ -73,6 +73,4 @@ public class MovieController {
         }
     }
 
-    // Additional endpoints can be added as needed
-    
 }
