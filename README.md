@@ -34,6 +34,24 @@ Similarly all the CRUD operations have been performed in the project:
 
 Now For the Theatre Project: 
 
+1) Find by TheatreId:
+   ![image](https://github.com/vipinyadav2k/Movie-MIcroservice-Application/assets/122339831/05837dd9-6c04-4335-9b53-c619ff7ce709)
+
+2) FindByTheatreNameAndTheatreCity:
+   ![image](https://github.com/vipinyadav2k/Movie-MIcroservice-Application/assets/122339831/2852650c-8597-41c0-ab19-4049bd2a187f)
+
+3) FindByScreenId:
+   ![image](https://github.com/vipinyadav2k/Movie-MIcroservice-Application/assets/122339831/91e2e7d4-df07-40db-8662-75793c798ba0)
+
+4) List<Screen> findByTheatreId(long theatreId):
+   ![image](https://github.com/vipinyadav2k/Movie-MIcroservice-Application/assets/122339831/d7b426c5-86e5-4134-a528-306d6bda490a)
+
+5) FindByScreeningDate(Date screeningDate):
+   ![image](https://github.com/vipinyadav2k/Movie-MIcroservice-Application/assets/122339831/1be759ef-817b-4149-9ebe-b42932eb67a0)
+
+6) Screening findByMovieNameAndTheatreIdAndScreeningDateAndScreeningTime:
+   ![image](https://github.com/vipinyadav2k/Movie-MIcroservice-Application/assets/122339831/4ce7c19a-3b07-497a-875e-aaf8dac8d66e)
+
 
 
 
