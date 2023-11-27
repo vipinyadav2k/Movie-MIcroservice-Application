@@ -26,6 +26,5 @@ public class ScreenService {
         return screenRepository.findByTheatreId(theatreId);
     }
 
-    // Additional service methods related to screens can be added here
 }
 
