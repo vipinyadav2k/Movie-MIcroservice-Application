@@ -18,7 +18,6 @@ public interface ScreeningRepository extends JpaRepository<Screening, Long> {
             String movieName, long theatreId, Date screeningDate, Time screeningTime
     );
 
-    // Additional custom queries can be added here
 }
 
 
