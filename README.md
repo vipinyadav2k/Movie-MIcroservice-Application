@@ -1,2 +1,2 @@
-# Movie-MIcroservice-Application
+# Movie-Microservice-Application
 This is a microservice application project
