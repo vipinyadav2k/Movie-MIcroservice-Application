@@ -38,14 +38,12 @@ public class TheatreController {
 
     @GetMapping("/{theatreId}/movies")
     public ResponseEntity<String> getMoviesByTheatreId(@PathVariable Long theatreId) {
-        // Replace "YOUR_MOVIE_API_URL" with the actual URL of the movie API
+       
         String movieApiUrl = "http://localhost:1906/movies/" +theatreId;
 
-        // Make a request to the movie API using RestTemplate
         String movies = restTemplate.getForObject(movieApiUrl, String.class);
 
         return ResponseEntity.ok(movies);
     }
 
-    // Additional endpoints related to theatres can be added here
 }
