@@ -1,8 +1,10 @@
 # Movie-Microservice-Application
 This is a microservice application project
 
+-------------------------------
 Movie runs on port:1906
 Theatre runs on port:8080
+-------------------------------
 
 In this project I am providing the services of Movie API in the Theatre Project.
 
