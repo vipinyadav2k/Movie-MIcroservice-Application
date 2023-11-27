@@ -32,6 +32,5 @@ public class ScreenController {
         return ResponseEntity.ok(screens);
     }
 
-    // Additional endpoints related to screens can be added here
 }
 
