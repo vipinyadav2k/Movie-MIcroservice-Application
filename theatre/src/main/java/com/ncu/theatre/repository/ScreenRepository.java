@@ -14,7 +14,6 @@ public interface ScreenRepository extends JpaRepository<Screen, Long> {
 
     List<Screen> findByTheatreId(long theatreId);
 
-    // Additional custom queries can be added here
 }
 
 
