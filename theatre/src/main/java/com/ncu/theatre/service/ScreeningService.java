@@ -30,7 +30,6 @@ public class ScreeningService {
         );
     }
 
-    // Additional service methods related to screenings can be added here
 }
 
 
