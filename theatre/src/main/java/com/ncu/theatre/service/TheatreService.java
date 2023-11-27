@@ -26,6 +26,5 @@ public class TheatreService {
         return theatreRepository.findByTheatreNameAndTheatreCity(theatreName, theatreCity);
     }
 
-    // Additional service methods related to theatres can be added here
 }
 
