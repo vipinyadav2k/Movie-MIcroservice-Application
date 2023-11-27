@@ -12,7 +12,6 @@ public interface TheatreRepository extends JpaRepository<Theatre, Long> {
 
     Theatre findByTheatreNameAndTheatreCity(String theatreName, String theatreCity);
 
-    // Additional custom queries can be added here
 }
 
 
